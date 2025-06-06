@@ -38,19 +38,6 @@ li {
 
 /* Nav-list styles */
 
-.navigation-list-link-main {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.navigation-list-link-main:hover,
-.navigation-list-link-main:focus {
-  color: #404bbf;
-}
-
 .navigation-list-link {
   color: #2e2f42;
   font-weight: 500;
@@ -63,6 +50,9 @@ li {
   color: #404bbf;
 }
 
+.navigation-list .navigation-list-link:first-child:focus {
+  color: #404bbf;
+}
 /* Address-list styles */
 .address-list {
   font-style: normal;
