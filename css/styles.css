@@ -46,11 +46,8 @@ li {
   line-height: 1.5;
 }
 
-.navigation-list-item:focus {
-  color: #404bbf;
-}
-
-.navigation-list-link:hover {
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: #404bbf;
 }
 
@@ -67,7 +64,8 @@ li {
   letter-spacing: 0.02em;
 }
 
-.adress-list-link:hover {
+.adress-list-link:hover,
+.address-list-link:focus {
   color: #404bbf;
 }
 
