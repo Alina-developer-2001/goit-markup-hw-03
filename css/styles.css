@@ -50,7 +50,7 @@ li {
   color: #404bbf;
 }
 
-.navigation-list .navigation-list-link:first-child:focus {
+.mail-address:focus {
   color: #404bbf;
 }
 /* Address-list styles */
