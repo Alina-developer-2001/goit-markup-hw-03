@@ -46,13 +46,14 @@ li {
   line-height: 1.5;
 }
 
+.navigation-list-item:focus {
+  color: #404bbf;
+}
+
 .navigation-list-link:hover {
   color: #404bbf;
 }
 
-.mail-address:focus {
-  color: #404bbf;
-}
 /* Address-list styles */
 .address-list {
   font-style: normal;
