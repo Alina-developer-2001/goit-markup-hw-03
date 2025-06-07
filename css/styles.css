@@ -136,7 +136,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalwork;
+  text-transform: capitalize;
 }
 
 .employee-name {
