@@ -6,6 +6,10 @@ body {
   color: #434455;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -43,6 +47,7 @@ ul {
   align-items: center;
   padding: 24px 156px;
   height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 /*Logo styles  */
 .navigation {
@@ -83,7 +88,6 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  display: block;
 }
 
 .navigation-list-link:hover,
@@ -246,7 +250,6 @@ ul {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
-  margin-top: -5px;
 }
 
 .work-title {
@@ -297,7 +300,6 @@ ul {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
-  margin-top: -5px;
 }
 
 .offer-name {
