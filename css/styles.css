@@ -73,6 +73,7 @@ ul {
   text-transform: uppercase;
   line-height: 1.17;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-dark {
@@ -394,7 +395,7 @@ ul {
 }
 
 .logo-link {
-  display:inline-block;
+
 margin-bottom: 16px;
 }
 
