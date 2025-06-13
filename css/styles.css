@@ -146,7 +146,6 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin: 0;
   padding: 0 472px 0 472px;
 }
 
@@ -165,6 +164,7 @@ ul {
   padding: 0;
   margin-top: 48px;
   margin-left: 636px;
+  border: none;
 }
 
 .order-button:hover,
@@ -178,7 +178,11 @@ ul {
   flex-direction: row;
   width: 1128px;
   height: 104px;
-  margin: 120px 156px;
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  overflow: hidden;
 }
 
 .advanteges-list {
