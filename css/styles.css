@@ -187,15 +187,15 @@ ul {
 
 .visually-hidden {
   position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  height: 1px;
   width: 1px;
-  position: absolute;
-  white-space: nowrap;
+  height: 1px;
+  margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advanteges-list {
@@ -395,6 +395,6 @@ ul {
 
   margin-bottom: 16px;
 }
-.logo-link{
+.logo-footer{
   display: inline-block;
 }
