@@ -234,6 +234,7 @@ ul {
   align-items: center;
   height: 732px;
   gap: 72px;
+  padding: 120px 0;
 }
 
 .employees {
@@ -242,10 +243,12 @@ ul {
   justify-content: center;
   gap: 24px;
   align-items: center;
+  
 }
 
 .employee-list {
   background-color: #ffffff;
+ 
 }
 
 .team-title {
@@ -255,7 +258,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .employee-name {
