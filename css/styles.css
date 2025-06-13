@@ -251,7 +251,7 @@ ul {
   
 }
 
-.employees .employee-list {
+.employee-list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
@@ -393,7 +393,7 @@ li .our-portfolio-list-item{
   
 }
 
-a .logo-link {
+.logo-link {
   display:inline-block;
 margin-bottom: 16px;
 }
