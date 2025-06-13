@@ -332,13 +332,12 @@ ul {
   background-color: #2e2f42;
   height: 312px;
   display: flex;
+  padding: 100px 0;
 }
 
 .footer-section .container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding-top: 100px;
   padding-left: 156px;
   margin: 0;
 }
@@ -350,4 +349,9 @@ ul {
   letter-spacing: 0.02em;
   max-width: 264px;
   display: inline-block;
+}
+
+.footer-section .logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
