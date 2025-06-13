@@ -248,6 +248,7 @@ ul {
 
 .employee-list {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
  
 }
 
@@ -259,6 +260,7 @@ ul {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .employee-name {
@@ -267,15 +269,15 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
-.employees .container {
+.employee-list .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
-  padding: 32px 16px;
+  padding: 32px 0;
   margin: 0;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -287,6 +289,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* Our portfolio styles */
@@ -297,6 +300,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 72px;
+  padding: 120px 0;
 }
 
 .our-portfolio-title {
@@ -306,7 +310,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 120px;
+  margin-bottom: 72px;
+  
 }
 
 .our-portfolio-list {
@@ -317,6 +322,7 @@ ul {
   align-items: center;
   row-gap: 48px;
   column-gap: 24px;
+  
 }
 
 .our-portfolio-list .container {
