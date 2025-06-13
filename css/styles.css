@@ -332,7 +332,7 @@ ul {
   
 }
 
-.our-portfolio-list-item{
+li .our-portfolio-list-item{
   width: calc((100% - 48px) / 3);
   
 }
@@ -390,11 +390,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  display: inline-block;
+  
 }
 
-.footer-section .logo-link {
+a .logo-link {
   display:inline-block;
 margin-bottom: 16px;
 }
+
 
