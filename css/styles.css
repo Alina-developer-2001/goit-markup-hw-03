@@ -137,7 +137,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -147,7 +147,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0;
-  padding: 188px 472px 48px 472px;
+  padding: 0 472px 0 472px;
 }
 
 .order-button {
@@ -163,7 +163,8 @@ ul {
   height: 56px;
   border-radius: 4px;
   padding: 0;
-  margin-bottom: 188px;
+  margin-top: 48px;
+  margin-left: 636px;
 }
 
 .order-button:hover,
