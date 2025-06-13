@@ -152,13 +152,14 @@ ul {
 
 .order-button {
   background-color: #4d5ae5;
+  display: block;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   padding: 0;
