@@ -186,14 +186,16 @@ ul {
 }
 
 .visually-hidden {
+  position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  clip-path: inset(100%);
   height: 1px;
   width: 1px;
   position: absolute;
-  flex-wrap: nowrap;
-  left: -1000px;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
 }
 
 .advanteges-list {
@@ -201,14 +203,15 @@ ul {
   display: flex;
   gap: 24px;
   padding: 0 156px;
-  width: width: calc((100% - 72px) / 4);
+  
 }
 
 .advanteges-list-item {
   flex-direction: column;
   width: 264px;
   height: 104px;
-  margin-bottom: 8px;
+  
+  width: width: calc((100% - 72px) / 4);
 }
 
 .advanteges-list-title {
@@ -218,6 +221,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .advanteges-list-text {
@@ -388,6 +392,9 @@ ul {
 }
 
 .footer-section .logo-link {
-  display: inline-block;
+
   margin-bottom: 16px;
+}
+.logo-link{
+  display: inline-block;
 }
