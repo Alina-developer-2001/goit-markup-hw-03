@@ -204,6 +204,7 @@ ul {
   display: flex;
   gap: 24px;
   padding: 0 156px;
+  padding-left: 0;
   
 }
 
@@ -249,6 +250,7 @@ ul {
   gap: 24px;
   align-items: center;
   margin: 0 auto;
+  padding-left: 0;
   
 }
 
@@ -330,6 +332,7 @@ ul {
   align-items: center;
   row-gap: 48px;
   column-gap: 24px;
+  padding-left: 0;
   
 }
 
@@ -373,17 +376,10 @@ ul {
 /* Footer styles */
 .footer-section {
   background-color: #2e2f42;
-  height: 312px;
-  display: flex;
   padding: 100px 0;
 }
 
-.footer-section .container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 156px;
-  margin: 0;
-}
+
 
 .footer-text {
   color: #f4f4fd;
@@ -395,7 +391,7 @@ ul {
 }
 
 .logo-link {
-
+display: inline-block;
 margin-bottom: 16px;
 }
 
