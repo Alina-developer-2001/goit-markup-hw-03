@@ -182,10 +182,6 @@ ul {
   padding: 120px 0;
 }
 
-.advanteges-section .container{
-  
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -205,14 +201,13 @@ ul {
   gap: 24px;
   padding: 0 156px;
   padding-left: 0;
-  
 }
 
 .advanteges-list-item {
   flex-direction: column;
   width: 264px;
   height: 104px;
-  width: width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advanteges-list-title {
@@ -251,14 +246,12 @@ ul {
   align-items: center;
   margin: 0 auto;
   padding-left: 0;
-  
 }
 
 .employee-list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
- 
 }
 
 .team-title {
@@ -321,7 +314,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
-  
 }
 
 .our-portfolio-list {
@@ -333,19 +325,17 @@ ul {
   row-gap: 48px;
   column-gap: 24px;
   padding-left: 0;
-  
 }
 
-.our-portfolio-list-item{
+.our-portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  
 }
 
 .our-portfolio-list .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -353,8 +343,6 @@ ul {
   width: 360px;
   height: 120px;
   margin: 0;
-  
-  
 }
 
 .offer-name {
@@ -379,20 +367,15 @@ ul {
   padding: 100px 0;
 }
 
-
-
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  
 }
 
 .logo-link {
-display: inline-block;
-margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
-
-
