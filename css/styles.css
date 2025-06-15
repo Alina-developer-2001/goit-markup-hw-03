@@ -178,6 +178,7 @@ ul {
 .advanteges-section {
   display: flex;
   flex-direction: row;
+  padding: 120px 0;
 }
 
 .advanteges-list .container {
