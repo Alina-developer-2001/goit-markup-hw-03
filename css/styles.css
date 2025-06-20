@@ -71,9 +71,7 @@ ul {
   color: #2e2f42;
 }
 
-.logo-light {
-  color: #f4f4fd;
-}
+
 
 /* Nav-list styles */
 
@@ -385,8 +383,11 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  margin-right: 76px;
   display: inline-block;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-logo-light{
+  color: #F4F4FD;
 }
